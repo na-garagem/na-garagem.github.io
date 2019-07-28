@@ -47,6 +47,7 @@ img {
   background-image: url('ativos/bg-site.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media screen and (min-width:1200px) {
