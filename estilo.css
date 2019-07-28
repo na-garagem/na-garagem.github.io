@@ -150,3 +150,7 @@ img {
 .link {
   margin-top: 20px;
 }
+
+.link:hover {
+  opacity: .8;
+}
