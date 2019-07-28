@@ -6,149 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="ativos/" type="image/x-icon">
     <meta name="theme-color" content="#A050B7">
     <title>Na Garagem</title>
 </head>
 
 <body>
-
-    <style>
-        @font-face {
-            font-family: Montserrat;
-            font-style: normal;
-            font-weight: 500;
-            font-display: swap;
-            src: local("Montserrat"), local("Montserrat"), url(fontes/Montserrat-SemiBold.ttf) format("truetype");
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            font-family: montserrat;
-            text-transform: uppercase;
-            font-weight: 500;
-            color: #ffffff;
-        }
-
-        .cabecalho {
-            height: 240px;
-            display: flex;
-            align-content: center;
-            justify-content: center;
-            background-color: #eeeeee;
-
-        }
-
-        @media screen and (min-width:1200px) {
-            .cabecalho {
-                display: none;
-            }
-        }
-
-        .cabecalho__logo {
-            width: 300px;
-            margin: 0 auto;
-        }
-
-        .conteudo {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 80px 40px;
-            background-image: url('ativos/bg-site.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-
-        @media screen and (min-width:1200px) {
-            .conteudo {
-                flex-direction: row-reverse;
-                height: 100vh;
-                padding: 0;
-            }
-        }
-
-        .conteudo__texto {
-            font-size: 18px;
-            color: #eee;
-            margin-bottom: 32px;
-            text-align: center;
-            max-width: 320px;
-            line-height: 40px;
-        }
-
-        .conteudo__texto_destaque {
-            font-size: 28px;
-            margin-bottom: 80px;
-        }
-
-        .conteudo__texto strong {
-            background: #A050B7;
-        }
-
-        .conteudo__primario {
-            margin-bottom: 24px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        @media screen and (min-width:1200px) {
-            .conteudo__primario {
-                flex-grow: 1;
-                display: flex;
-                align-items: center;
-                flex-direction: column;
-            }
-        }
-
-        .botao {
-            padding: 16px;
-            background-color: #A050B7;
-            color: #ffffff;
-            text-decoration: none;
-            font-weight: 500;
-            border-radius: 50px;
-            font-size: 18px;
-            width: 100%;
-            text-align: center;
-        }
-
-        .link {
-            margin-top: 20px;
-        }
-
-        @media screen and (min-width:1200px) {
-            .botao {
-                width: auto;
-            }
-        }
-
-        .rodape {
-            margin-top: 48px;
-        }
-
-        @media screen and (min-width:1200px) {
-            .rodape {
-                flex-grow: 1;
-                display: flex;
-                align-items: center;
-                flex-direction: column;
-                border-right: 2px solid #ffffff;
-                justify-content: center;
-                height: 50%;
-                margin: 0;
-            }
-        }
-
-        .rodape h3 {
-            margin-bottom: 24px;
-        }
-
-        .rodape__logo {
-            max-width: 320px;
-        }
-    </style>
 
     <header class="cabecalho">
         <img src="ativos/logo.svg" alt="" class="cabecalho__logo">
@@ -159,10 +22,8 @@
             <h2 class="conteudo__texto">Sabe aquele fetiche...</h2>
             <h2 class="conteudo__texto conteudo__texto_destaque">Você pode realizá-lo <strong>hoje!</strong></h2>
 
-            <a class="botao" href="https://api.whatsapp.com/send?1=pt_BR&phone=5567981728408">
-                Agende conosco
-            </a>
-            <a href="https://forms.gle/C8eZE1qKjEnnNCyd9" target="_blank" class="link">Cadastre sua garagem</a>
+            <a class="botao" href="https://api.whatsapp.com/send?1=pt_BR&phone=5567981728408">Agende
+                conosco</a>
         </div>
 
         <footer class="rodape">
