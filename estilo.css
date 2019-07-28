@@ -129,3 +129,15 @@
 .rodape__logo {
   max-width: 320px;
 }
+
+.rodape__icones {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.rodape__icones img {
+  height: 24px;
+  margin: 0px 8px;
+  margin-top: 48px;
+}
