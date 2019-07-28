@@ -19,7 +19,7 @@ img {
 }
 
 .cabecalho {
-  height: 240px;
+  height: 80px;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -34,7 +34,7 @@ img {
 }
 
 .cabecalho__logo {
-  width: 300px;
+  width: 120px;
   margin: 0 auto;
 }
 
